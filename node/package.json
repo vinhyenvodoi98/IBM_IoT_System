@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.3.0",
+    "@wiotp/sdk": "^0.7.8",
+    "cfenv": "^1.2.3",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "ibmiotf": "^0.2.41",
+    "js-yaml": "^3.14.0"
+  }
+}
